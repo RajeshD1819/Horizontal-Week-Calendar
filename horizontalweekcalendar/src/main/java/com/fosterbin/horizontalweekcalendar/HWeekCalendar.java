@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.joda.time.DateTime;
+import org.joda.time.Days;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
@@ -141,6 +142,14 @@ public class HWeekCalendar extends LinearLayout {
                 }
             });
 
+            if (Days.daysBetween(dateTime, new DateTime()).getDays() == 0) {
+                dayContainer.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        dayContainer.performClick();
+                    }
+                });
+            }
             dateTime = dateTime.plusDays(1);
 
         }
@@ -165,4 +174,6 @@ public class HWeekCalendar extends LinearLayout {
             dayContainer.getLayoutParams().width = width;
         }
     }
+
+
 }

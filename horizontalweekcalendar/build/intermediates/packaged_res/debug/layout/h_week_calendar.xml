@@ -49,7 +49,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/hwc_selector_day_bg_color"
-                android:checked="true"
+                android:checked="false"
                 android:fontFamily="@font/nunito_semibold"
                 android:gravity="center"
                 android:textAlignment="gravity"
