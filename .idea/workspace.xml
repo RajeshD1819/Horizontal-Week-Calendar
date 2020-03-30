@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11229794-f19a-4ed9-9d33-9e38ff572b98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/src/androidTest/java/com/fosterbin/horizontalweekcalendar/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/src/androidTest/java/com/fosterbin/horizontalweekcalendar_demo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/CenterSmoothScroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/CenterSmoothScroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/OnRecyclerViewClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/OnRecyclerViewClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/OnWeekCalendarClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/OnWeekCalendarClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/WeekModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/WeekModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontalweekcalendar/src/test/java/com/fosterbin/horizontalweekcalendar/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/horizontalweekcalendar/src/test/java/com/fosterbin/horizontalweekcalendar_demo/ExampleUnitTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="9888d9314c30455357" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/HWeekCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fosterbin/horizontalweekcalendar_demo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/WeekAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>̥</find>
+      <find>setMeasuredDimension</find>
+      <find>android:checked=&quot;true&quot;</find>
+      <find>hwc_secondary_text_color</find>
+      <find>mLastCheckPos</find>
+      <find>hwc_selector_day_bg_color</find>
+      <find>android:text=&quot;Mon&quot;</find>
+      <find>android:textSize=&quot;25dp&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hwc_primary_text_color</replace>
+      <replace>tools:text=&quot;Mon&quot;</replace>
+      <replace>android:textSize=&quot;@dimen/day_text_size&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/horizontalweekcalendar" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/src/main/res/drawable/hwc_selector_day_text_color.xml" />
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/src/main/res/drawable/hwc_day_selected.xml" />
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/src/main/res/drawable/hwc_secondary_bg_color.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/build.gradle" />
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/src/main/res/layout/h_week_calendar.xml" />
+        <option value="$PROJECT_DIR$/hirizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/HWeekCalendar.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_secondary_bg_color.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_day_unselected.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_day_selected.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/WeekModel.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/OnRecyclerViewClick.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_selector_day_text_color.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_selector_week_text_color.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/CenterSmoothScroller.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/build/intermediates/packaged_res/debug/layout/h_week_calendar.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/layout/h_week_calendar.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/layout/row_week_view.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/WeekAdapter.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/OnWeekCalendarClick.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fosterbin/horizontalweekcalendar/MainActivity.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/hirizontalweekcalendar/HWeekCalendar.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/HWeekCalendar.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar_demo/HWeekCalendar.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar_demo/WeekAdapter.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/WeekAdapter.java" />
+        <option value="$PROJECT_DIR$/horizontalweekcalendar/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="horizontalweekcalendar" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="horizontalweekcalendar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="horizontalweekcalendar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="horizontalweekcalendar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="fosterbin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="horizontalweekcalendar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="fosterbin" type="462c0819:PsiDirectoryNode" />
+              <item name="horizontalweekcalendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalWeekCalendar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="9888d9314c30455357" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-29T17:00:09.235Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/sdk" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fosterbin.hirizontalweekcalendar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11229794-f19a-4ed9-9d33-9e38ff572b98" name="Default Changelist" comment="" />
+      <created>1585461931670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585461931670</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22319035" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.329927" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.63649637" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.3109489" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.329927" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Fabric" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.33981234" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/sdk/platforms/android-28/data/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="5659" column="20" selection-start-line="5659" selection-start-column="20" selection-end-line="5659" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/WeekModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_day_selected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_day_unselected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_selector_day_bg_color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_selector_day_text_color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="11" lean-forward="true" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/CenterSmoothScroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/build/intermediates/packaged_res/debug/layout/h_week_calendar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/layout/h_week_calendar.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="272" column="58" selection-start-line="272" selection-start-column="58" selection-end-line="272" selection-end-column="58" />
+          <folding>
+            <element signature="e#1475#1497#0" expanded="true" />
+            <element signature="e#2191#2214#0" expanded="true" />
+            <element signature="e#2853#2875#0" expanded="true" />
+            <element signature="e#3571#3594#0" expanded="true" />
+            <element signature="e#4249#4271#0" expanded="true" />
+            <element signature="e#4967#4990#0" expanded="true" />
+            <element signature="e#5597#5619#0" expanded="true" />
+            <element signature="e#6411#6434#0" expanded="true" />
+            <element signature="e#7041#7063#0" expanded="true" />
+            <element signature="e#7855#7878#0" expanded="true" />
+            <element signature="e#8485#8507#0" expanded="true" />
+            <element signature="e#9251#9274#0" expanded="true" />
+            <element signature="e#9880#9902#0" expanded="true" />
+            <element signature="e#10646#10669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/layout/row_week_view.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/drawable/hwc_selector_week_text_color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/OnWeekCalendarClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/OnRecyclerViewClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fosterbin/horizontalweekcalendar_demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/HWeekCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/src/main/java/com/fosterbin/horizontalweekcalendar/WeekAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontalweekcalendar/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

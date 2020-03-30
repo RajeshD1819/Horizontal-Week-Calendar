@@ -1,0 +1,2 @@
+include ':app', ':horizontalweekcalendar'
+rootProject.name='HorizontalWeekCalendar'

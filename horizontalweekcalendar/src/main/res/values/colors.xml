@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hwc_primary_text_color">#727272</color>
+    <color name="hwc_date_bg_unselected">#fff</color>
+    <color name="hwc_date_bg_selected">#0277BD</color>
+    <color name="hwc_date_text_unselected">#313131</color>
+    <color name="hwc_date_text_selected">#fff</color>
+    <color name="hwc_week_text_selected">#0277BD</color>
+    <color name="hwc_week_text_unselected">#727272</color>
+</resources>
