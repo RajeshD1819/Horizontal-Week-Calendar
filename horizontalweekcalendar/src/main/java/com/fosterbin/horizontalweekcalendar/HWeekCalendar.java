@@ -112,6 +112,7 @@ public class HWeekCalendar extends LinearLayout {
 
     private void setWeekDateView(int layoutPosition) {
         DateTime dateTime = mWeekAdapter.getItem(layoutPosition).getDateTime();
+        int todaySelectedPos = -1;
         for (int i = 0; i < containerWeekDays.getChildCount(); i++) {
 
             LinearLayout dayContainer = (LinearLayout) containerWeekDays.getChildAt(i);
@@ -143,15 +144,28 @@ public class HWeekCalendar extends LinearLayout {
             });
 
             if (Days.daysBetween(dateTime, new DateTime()).getDays() == 0) {
+                todaySelectedPos = i;
                 dayContainer.post(new Runnable() {
                     @Override
                     public void run() {
                         dayContainer.performClick();
                     }
                 });
+            } else {
+                textDate.setChecked(false);
             }
             dateTime = dateTime.plusDays(1);
+        }
 
+        // if non of date is selected then make default selection
+        if (todaySelectedPos == -1) {
+            LinearLayout dayContainer = (LinearLayout) containerWeekDays.getChildAt(0);
+            dayContainer.post(new Runnable() {
+                @Override
+                public void run() {
+                    dayContainer.performClick();
+                }
+            });
         }
     }
 
