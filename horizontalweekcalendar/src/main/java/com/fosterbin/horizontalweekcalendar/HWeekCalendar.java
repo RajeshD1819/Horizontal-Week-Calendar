@@ -2,13 +2,15 @@ package com.fosterbin.horizontalweekcalendar;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckedTextView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.joda.time.DateTime;
-import org.joda.time.Days;
+import org.joda.time.DateTimeComparator;
+import org.joda.time.DateTimeConstants;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
@@ -76,32 +78,28 @@ public class HWeekCalendar extends LinearLayout {
 
 
         DateTime dateTime = new DateTime();
+        dateTime = dateTime.withDayOfWeek(DateTimeConstants.MONDAY);
         dateTime = dateTime.minusWeeks(mWeekOffset);
         int totalWeek = mWeekOffset + mWeekMax;
         List<WeekModel> modelList = new ArrayList<>();
         for (int i = 0; i < totalWeek; i++) {
-            dateTime = dateTime.plusWeeks(1);
             WeekModel weekModel = new WeekModel();
             weekModel.setDateTime(dateTime);
             weekModel.setSelected(false);
             modelList.add(weekModel);
+            dateTime = dateTime.plusWeeks(1);
         }
         mWeekAdapter.addItem(modelList);
         mRecyclerView.setAdapter(mWeekAdapter);
         mSmoothScroller = new CenterSmoothScroller(mRecyclerView.getContext());
 
-        int firstCheckedPost = 0;
-        if (mWeekOffset > 0) {
-            firstCheckedPost = mWeekOffset - 1;
-        }
-
-        mSmoothScroller.setTargetPosition(firstCheckedPost);
-        mWeekAdapter.getItem(firstCheckedPost).setSelected(true);
-        mLastCheckPos = firstCheckedPost;
-        mWeekAdapter.notifyItemChanged(firstCheckedPost);
+        mSmoothScroller.setTargetPosition(mWeekOffset);
+        mWeekAdapter.getItem(mWeekOffset).setSelected(true);
+        mLastCheckPos = mWeekOffset;
+        mWeekAdapter.notifyItemChanged(mWeekOffset);
         mLinearLayoutManager.startSmoothScroll(mSmoothScroller);
 
-        final int finalFirstCheckedPost = firstCheckedPost;
+        final int finalFirstCheckedPost = mWeekOffset;
         mRecyclerView.post(new Runnable() {
             @Override
             public void run() {
@@ -111,7 +109,11 @@ public class HWeekCalendar extends LinearLayout {
     }
 
     private void setWeekDateView(int layoutPosition) {
+
         DateTime dateTime = mWeekAdapter.getItem(layoutPosition).getDateTime();
+
+        Log.i(TAG, "setWeekDateView: " + dateFormat.print(dateTime));
+
         int todaySelectedPos = -1;
         for (int i = 0; i < containerWeekDays.getChildCount(); i++) {
 
@@ -120,14 +122,15 @@ public class HWeekCalendar extends LinearLayout {
             CheckedTextView textDate = (CheckedTextView) dayContainer.getChildAt(1);
             textDay.setText(dayFormat.print(dateTime));
             textDate.setText(dateFormat.print(dateTime));
+
             DateTime finalDateTime = dateTime;
             dayContainer.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View v) {
+
                     if (mOnWeekCalendarClick != null) {
                         mOnWeekCalendarClick.onDateClick(finalDateTime);
                     }
-
                     for (int j = 0; j < containerWeekDays.getChildCount(); j++) {
 
                         LinearLayout dayContainer = (LinearLayout) containerWeekDays.getChildAt(j);
@@ -135,15 +138,29 @@ public class HWeekCalendar extends LinearLayout {
                         CheckedTextView textDate = (CheckedTextView) dayContainer.getChildAt(1);
 
                         if (v.getId() == dayContainer.getId()) {
-                            textDate.setChecked(true);
+                            if (!textDate.isChecked()) {
+                                textDate.post(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        textDate.setChecked(true);
+                                    }
+                                });
+                            }
                         } else {
-                            textDate.setChecked(false);
+                            if (textDate.isChecked()) {
+                                textDate.post(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        textDate.setChecked(false);
+                                    }
+                                });
+                            }
                         }
                     }
                 }
             });
 
-            if (Days.daysBetween(dateTime, new DateTime()).getDays() == 0) {
+            if (DateTimeComparator.getDateOnlyInstance().compare(dateTime, new DateTime()) == 0) {
                 todaySelectedPos = i;
                 dayContainer.post(new Runnable() {
                     @Override

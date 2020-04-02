@@ -53,7 +53,7 @@ public class WeekAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 viewHolder.textWeek.setChecked(false);
                 viewHolder.viewHr.setVisibility(View.GONE);
             }
-            DateTime startOfWeek = data.getDateTime().withDayOfWeek(DateTimeConstants.MONDAY);
+            DateTime startOfWeek = data.getDateTime();
             DateTime endOfWeek = data.getDateTime().withDayOfWeek(DateTimeConstants.SUNDAY);
             viewHolder.textWeek.setText(weekFormat.print(startOfWeek) + " - " + weekFormat.print(endOfWeek));
         }
